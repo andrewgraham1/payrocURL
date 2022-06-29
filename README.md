@@ -22,24 +22,16 @@ npm run dev
 </pre>
 <p>Your frontend is now running and will be available at: localhost:3000</p>
 
-<h1>Setup Database</h1>
-<p>Open the root directory of the repo</p>
-<pre>
-cd database
-</pre>
-
-<p>Then run</p>
-<pre>
-docker compose up
-</pre>
-<p>This will start up the PostGres database in a docker container used for this application
-
 <h1>Setup Backend</h1>
 <p>Open the root directory of the repo</p>
 <pre>
 cd backend/payrocBackend
 </pre>
 <p>Then run</p>
+<pre>
+docker compose up
+</pre>
+<p>This will start up the PostGres database in a docker container used for this application
 <pre>
 npm install
 </pre>
